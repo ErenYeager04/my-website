@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ErenYeager04.github.io/my-first-website",
+  "homepage":"https://ErenYeager04.github.io/my-website",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "push -u origin main build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
